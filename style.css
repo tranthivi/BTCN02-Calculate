@@ -1,0 +1,46 @@
+.title h1{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000026;
+    color: red;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.container {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input {
+    padding: 6px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px blue;
+    cursor: pointer;
+}
+.col-6 { 
+    align-items: center;
+    position: relative;
+    margin-bottom: 32px;
+    width: fit-content;
+    display: flex;
+}
+
+.message {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    color: red;
+    font-size: 14px;
+    margin-right: 80px;
+    display: none;
+}
+#notification{
+  text-align: center;
+  color: red;
+  display: block;
+  font-weight: bolder;
+}
+  
